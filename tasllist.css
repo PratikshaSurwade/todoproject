@@ -1,0 +1,202 @@
+.main-container {
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "adobe-clean", sans-serif;
+  }
+.hr-margin{
+    margin-left:  25%;
+    color: black;
+    margin-bottom: 0px;
+}
+.head-line-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+    letter-spacing: 0ch;
+}
+.icon-pluscircle{
+    color: #e25822 ;
+    font-size: 30px;
+    margin-right: 0.3em;
+}
+.icon-pluscircle:hover{
+    background-color: #7163f7;
+}
+.icon-pluscircle:active{
+    transform: scale(1.05,1.05)
+}
+.task{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.lists{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 50px;
+    height: 60px;
+    width: 160px;
+    
+}
+.addlists{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    color: gray;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.todo-cards{
+    width: 15em;
+    height: 20em;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 2px 4px 6px rgb(197, 195, 195);
+    color: #e25822;
+    border-color: #e25822;
+    position: relative;
+}
+.card-icon{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.card-icon:hover{
+    background-color: #7163f7;
+}
+.trip-card{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #e25822;
+    font-weight: bold ;
+    margin-left: 25%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.complete-popup{
+    font-family: 'Roboto', sans-serif;
+    color: #e25822;
+    font-weight: bold ;
+    margin-top: 30px;
+    margin-left: 25%;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 4px ;
+
+}
+.checkbox-popup{
+    margin-top: 15px;
+    color: black;
+    font-weight: bold ;
+
+}
+.pending-popup{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold ;
+}
+.heading-two{
+        margin: 1em;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+        font-family: sans-serif;
+}
+.heading-two::before,
+.heading-two::after {
+  content: '';
+  flex: 2;
+  border-bottom: 3px solid grey;
+  margin: 0.6em;
+}
+.side-arrow-icon{
+    color: #e25822 ;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+.side-arrow-icon:hover{
+    background-color: #7163f7;
+}
+.side-arrow-icon:active{
+    transform:scale(1.05,1.05)
+}
+.todo-card-1{
+    width: 15em;
+    height: 20em;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 2px 4px 6px rgb(197, 195, 195);
+    color: #e25822;
+    border-color: #e25822;
+    position: relative;
+    align-items: center;
+    
+}
+.back-botton{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    color: gray;
+    font-size: 30px;
+}
+.main-container-1 {
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "adobe-clean", sans-serif;
+    align-items: center;
+  }
+  .trip-card-1{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #e25822;
+    font-weight: bold ;
+    margin-left: 25%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: justify;
+  }
+  .pending-popup-1{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold ;
+    margin-left: 0px;
+    text-align: left;
+}
+.complete-popup-1{
+    font-family: 'Roboto', sans-serif;
+    color: #e25822;
+    font-weight: bold ;
+    margin-top: 30px;
+    margin-left: 25%;
+    text-align: justify;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 4px ;
+
+
+}

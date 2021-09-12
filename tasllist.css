@@ -24,12 +24,6 @@
     font-size: 30px;
     margin-right: 0.3em;
 }
-.icon-pluscircle:hover{
-    background-color: #7163f7;
-}
-.icon-pluscircle:active{
-    transform: scale(1.05,1.05)
-}
 .task{
     font-size: 50px;
     font-weight: bold;
@@ -76,9 +70,6 @@
     position: absolute;
     right: 15px;
     bottom: 15px;
-}
-.card-icon:hover{
-    background-color: #7163f7;
 }
 .trip-card{
     margin-top: 30px;
@@ -133,12 +124,6 @@
     font-size: 35px;
     text-align: center;
     align-items: center;
-}
-.side-arrow-icon:hover{
-    background-color: #7163f7;
-}
-.side-arrow-icon:active{
-    transform:scale(1.05,1.05)
 }
 .todo-card-1{
     width: 15em;

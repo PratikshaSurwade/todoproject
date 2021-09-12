@@ -28,13 +28,11 @@
       border-radius: 10px;
       filter: blur(0em);
       background-color: white;
-
   }
   .title-addlist{
       color: #e25822;
       font-size: 25px;
       margin: 15px;
-
   }
   .name{
     padding: 5px;
@@ -57,12 +55,6 @@
     background-color: #e25822;
     font-size: large;
     margin: 0.5em;
-  }
-  .add-button-style:hover{
-      background-color:#fd723b;
-  }
-  .add-button-style:active{
-      transform: scale(1.05,1.05);
   }
   .main-container-3{
     justify-content: center;
